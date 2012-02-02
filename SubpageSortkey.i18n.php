@@ -32,6 +32,13 @@ $messages['de'] = array(
 	'subpagesortkey-desc' => 'Ermöglicht die Änderung des Standardsortierkriteriums einer Seite auf Basis ihres Namens zu dem ihrer Unterseite',
 );
 
+/** Lower Sorbian (Dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'subpagesortkey-desc' => 'Zmóžnja standardny sortěrowański kluc boka na zakłaźe mjenja jogo pódboka město jogo dopołnego mjenja změniś',
+);
+
 /** French (Français)
  * @author Gomoko
  */
