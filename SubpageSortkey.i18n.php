@@ -53,6 +53,13 @@ $messages['gl'] = array(
 	'subpagesortkey-desc' => 'Cambia a clave de ordenación por defecto dunha páxina para basearse no nome da súa subpáxina no canto do seu nome completo',
 );
 
+/** Hebrew (עברית)
+ * @author Amire80
+ */
+$messages['he'] = array(
+	'subpagesortkey-desc' => 'שינוי של מפתח המיון הרגיל של דף כך שיהיה מבוסס על שם דף המשנה ולא על שם הדף כולו',
+);
+
 /** Upper Sorbian (Hornjoserbsce)
  * @author Michawiki
  */
