@@ -102,6 +102,13 @@ $messages['nl'] = array(
 	'subpagesortkey-desc' => 'Wijzg de standaard zoeksleutel van een pagina gebaseerd op de naam van de subpagina in plaatst van de volledige naam',
 );
 
+/** Polish (Polski)
+ * @author BeginaFelicysym
+ */
+$messages['pl'] = array(
+	'subpagesortkey-desc' => 'Zmień domyślny klucz sortowania strony na opierający się na jej nazwie podstrony zamiast pełnej nazwy',
+);
+
 /** Piedmontese (Piemontèis)
  * @author Borichèt
  * @author Dragonòt
