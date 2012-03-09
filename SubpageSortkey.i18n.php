@@ -39,6 +39,13 @@ $messages['dsb'] = array(
 	'subpagesortkey-desc' => 'Zmóžnja standardny sortěrowański kluc boka na zakłaźe mjenja jogo pódboka město jogo dopołnego mjenja změniś',
 );
 
+/** Spanish (Español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'subpagesortkey-desc' => 'Cambiar la clave de ordenación por defecto de una página para que esté basada en el nombre de su subpágina en lugar de en su nombre completo',
+);
+
 /** French (Français)
  * @author Gomoko
  */
