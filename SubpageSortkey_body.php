@@ -10,7 +10,7 @@ class SubpageSortkey {
 	 * 1/3/4/5/7. Adding it to the normal sortkey,
 	 * resulting in "0/1/3/4/5/7\n0/1/2/3/4/5/6/7/8".
 	 * From there it might be further prefixed with whatever the
-	 * {{DEFUALTSORT for a page is.
+	 * {{DEFAULTSORT for a page is.
 	 *
 	 * Another example: Configuration -3..-1 turns 1/2/3/4/5 -> 3/4
 	 * and -3.. turns 1/2/3/4/5 -> 3/4/5
@@ -58,6 +58,7 @@ class SubpageSortkey {
 		}
 		return true;
 	}
+
 	/**
 	 * @param $index Int starting index of subpage.
 	 * @param $count Int how many elements, or false to denote all
