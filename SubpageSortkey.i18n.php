@@ -81,6 +81,13 @@ $messages['ia'] = array(
 	'subpagesortkey-desc' => 'Cambia le clave de ordination predefinite de un pagina, basante lo super le nomine de su subpagina in loco de su nomine complete',
 );
 
+/** Japanese (日本語)
+ * @author Shirayuki
+ */
+$messages['ja'] = array(
+	'subpagesortkey-desc' => 'ページの既定の並び替えキーを、完全な名前ではなく下位ページ名に基づいて変更する',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
@@ -100,6 +107,13 @@ $messages['lb'] = array(
  */
 $messages['mk'] = array(
 	'subpagesortkey-desc' => 'Смени го стандардниот клуч за подредување на една страница на основа на името на нејзината потстраница наместо целосното име',
+);
+
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'subpagesortkey-desc' => 'Menukar kunci isih asali sesuatu laman agar mengikut nama sublamannya daripada nama penuhnya',
 );
 
 /** Dutch (Nederlands)
