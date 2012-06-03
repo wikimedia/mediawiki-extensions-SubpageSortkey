@@ -81,7 +81,7 @@ $messages['ia'] = array(
 	'subpagesortkey-desc' => 'Cambia le clave de ordination predefinite de un pagina, basante lo super le nomine de su subpagina in loco de su nomine complete',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  */
 $messages['it'] = array(
