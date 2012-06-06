@@ -95,6 +95,13 @@ $messages['ja'] = array(
 	'subpagesortkey-desc' => 'ページの既定の並び替えキーを、完全な名前ではなく下位ページ名に基づいて変更する',
 );
 
+/** Korean (한국어)
+ * @author 아라
+ */
+$messages['ko'] = array(
+	'subpagesortkey-desc' => '전체 이름을 대신하여 하위 문서 이름을 바탕으로 문서의 기본 정렬 키를 바꿈',
+);
+
 /** Colognian (Ripoarisch)
  * @author Purodha
  */
