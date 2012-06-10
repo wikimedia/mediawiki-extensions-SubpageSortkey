@@ -92,7 +92,7 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
-	'subpagesortkey-desc' => 'ページの既定の並び替えキーを、完全な名前ではなく下位ページ名に基づいて変更する',
+	'subpagesortkey-desc' => 'ページの既定のソートキーを、完全な名前ではなく下位ページ名に基づいて変更する',
 );
 
 /** Korean (한국어)
