@@ -39,14 +39,14 @@ $messages['dsb'] = array(
 	'subpagesortkey-desc' => 'Zmóžnja standardny sortěrowański kluc boka na zakłaźe mjenja jogo pódboka město jogo dopołnego mjenja změniś',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  */
 $messages['es'] = array(
 	'subpagesortkey-desc' => 'Cambiar la clave de ordenación por defecto de una página para que esté basada en el nombre de su subpágina en lugar de en su nombre completo',
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  */
 $messages['fr'] = array(
@@ -74,7 +74,7 @@ $messages['hsb'] = array(
 	'subpagesortkey-desc' => 'Zmóžnja standardny sortěrowanski kluč strony na zakładźe mjena jeje podstrony město jeje dospołneho mjena změnić',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -116,7 +116,7 @@ $messages['lb'] = array(
 	'subpagesortkey-desc' => 'De Standard-Sortéierschlëssel vun enger Säit änneren esou datt en ob den Numm vun der Ënnersäit baséiert aplaz ob de ganzen Numm',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -137,7 +137,7 @@ $messages['nl'] = array(
 	'subpagesortkey-desc' => 'Wijzg de standaard zoeksleutel van een pagina gebaseerd op de naam van de subpagina in plaatst van de volledige naam',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author BeginaFelicysym
  */
 $messages['pl'] = array(
