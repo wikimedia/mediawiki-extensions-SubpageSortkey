@@ -17,7 +17,7 @@ $messages['qqq'] = array(
 	'subpagesortkey-desc' => '{{desc}}',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author Jim-by
  * @author Wizardist
  */
@@ -32,7 +32,7 @@ $messages['de'] = array(
 	'subpagesortkey-desc' => 'Ermöglicht die Änderung des Standardsortierkriteriums einer Seite auf Basis ihres Namens zu dem ihrer Unterseite',
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -53,7 +53,7 @@ $messages['fr'] = array(
 	'subpagesortkey-desc' => "Modifie la clé de tri par défaut d'une page pour qu'elle soit basée sur le nom de sa sous-page plutôt que sur son nom complet",
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -67,7 +67,7 @@ $messages['he'] = array(
 	'subpagesortkey-desc' => 'שינוי של מפתח המיון הרגיל של דף כך שיהיה מבוסס על שם דף המשנה ולא על שם הדף כולו',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
