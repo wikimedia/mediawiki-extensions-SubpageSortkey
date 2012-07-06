@@ -152,3 +152,10 @@ $messages['pms'] = array(
 	'subpagesortkey-desc' => "Cangé la ciav d'ordinament predefinìa ëd na pàgina an manera ch'a sia basà an sël sò nòm ëd sot-pàgina nopà che an sël nòm antregh",
 );
 
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'subpagesortkey-desc' => 'Baguhin ang likas na nakatakdang susing pang-ayos ng isang pahina na ibabatay sa pangalan ng kabahaging pahina nito sa halip na sa buong pangalan nito',
+);
+
