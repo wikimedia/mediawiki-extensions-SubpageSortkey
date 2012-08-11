@@ -25,6 +25,13 @@ $messages['be-tarask'] = array(
 	'subpagesortkey-desc' => 'Зьмяняе ключ сартыроўкі па змоўчваньні старонкі заснаваным на назьве ягонай падстаронкі замест поўнай назвы',
 );
 
+/** Czech (česky)
+ * @author Reaperman
+ */
+$messages['cs'] = array(
+	'subpagesortkey-desc' => 'Mění výchozí řadicí klíč na název podstránky namísto celého názvu',
+);
+
 /** German (Deutsch)
  * @author Kghbln
  */
