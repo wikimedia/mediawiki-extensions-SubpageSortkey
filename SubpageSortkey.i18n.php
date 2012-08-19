@@ -159,6 +159,13 @@ $messages['pms'] = array(
 	'subpagesortkey-desc' => "Cangé la ciav d'ordinament predefinìa ëd na pàgina an manera ch'a sia basà an sël sò nòm ëd sot-pàgina nopà che an sël nòm antregh",
 );
 
+/** Russian (русский)
+ * @author Kalan
+ */
+$messages['ru'] = array(
+	'subpagesortkey-desc' => 'Изменяет ключ сортировки страницы по умолчанию, основывая его на имени подстраницы вместо полного имени страницы',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
