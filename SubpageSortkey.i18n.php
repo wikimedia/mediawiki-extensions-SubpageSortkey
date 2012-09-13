@@ -173,3 +173,10 @@ $messages['tl'] = array(
 	'subpagesortkey-desc' => 'Baguhin ang likas na nakatakdang susing pang-ayos ng isang pahina na ibabatay sa pangalan ng kabahaging pahina nito sa halip na sa buong pangalan nito',
 );
 
+/** Vietnamese (Tiếng Việt)
+ * @author Minh Nguyen
+ */
+$messages['vi'] = array(
+	'subpagesortkey-desc' => 'Thay đổi từ khóa sắp xếp mặc định của một trang thành tên trang con thay vì tên trang đầy đủ',
+);
+
