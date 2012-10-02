@@ -17,7 +17,7 @@ $messages['qqq'] = array(
 	'subpagesortkey-desc' => '{{desc}}',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author Jim-by
  * @author Wizardist
  */
