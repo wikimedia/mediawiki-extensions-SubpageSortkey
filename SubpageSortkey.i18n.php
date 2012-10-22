@@ -12,9 +12,17 @@ $messages['en'] = array(
 	'subpagesortkey-desc' => 'Change the default sortkey of a page to be based on its subpage name instead of its full name',
 );
 
-/** Message documentation (Message documentation) */
+/** Message documentation (Message documentation)
+ */
 $messages['qqq'] = array(
 	'subpagesortkey-desc' => '{{desc}}',
+);
+
+/** Asturian (asturianu)
+ * @author Xuacu
+ */
+$messages['ast'] = array(
+	'subpagesortkey-desc' => "Camudar la clave d'ordenación predeterminada d'una páxina pa que se base nel nome de la so páxina secundaria y non nel so nome completu",
 );
 
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
@@ -179,4 +187,3 @@ $messages['tl'] = array(
 $messages['vi'] = array(
 	'subpagesortkey-desc' => 'Thay đổi từ khóa sắp xếp mặc định của một trang thành tên trang con thay vì tên trang đầy đủ',
 );
-
