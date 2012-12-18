@@ -181,6 +181,13 @@ $messages['tl'] = array(
 	'subpagesortkey-desc' => 'Baguhin ang likas na nakatakdang susing pang-ayos ng isang pahina na ibabatay sa pangalan ng kabahaging pahina nito sa halip na sa buong pangalan nito',
 );
 
+/** Ukrainian (українська)
+ * @author Base
+ */
+$messages['uk'] = array(
+	'subpagesortkey-desc' => 'Змінює ключ сортування за замовчуванням, основуючи його на назві підсторінки замість повної назви сторінки',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  */
