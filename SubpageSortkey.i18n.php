@@ -167,6 +167,13 @@ $messages['pms'] = array(
 	'subpagesortkey-desc' => "Cangé la ciav d'ordinament predefinìa ëd na pàgina an manera ch'a sia basà an sël sò nòm ëd sot-pàgina nopà che an sël nòm antregh",
 );
 
+/** tarandíne (tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'subpagesortkey-desc' => "Cange 'a chiave de ordenamende de base d'a pàgene ca se base sus a le nome d'a sottopàgene e none sus a 'u nome indere",
+);
+
 /** Russian (русский)
  * @author Kalan
  */
