@@ -201,3 +201,10 @@ $messages['uk'] = array(
 $messages['vi'] = array(
 	'subpagesortkey-desc' => 'Thay đổi từ khóa sắp xếp mặc định của một trang thành tên trang con thay vì tên trang đầy đủ',
 );
+
+/** Simplified Chinese (中文（简体）‎)
+ * @author Yfdyh000
+ */
+$messages['zh-hans'] = array(
+	'subpagesortkey-desc' => '更改页面的默认排序键为基于其子页面的名称而非其全名。',
+);
