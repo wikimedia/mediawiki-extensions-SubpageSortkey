@@ -13,9 +13,10 @@ $messages['en'] = array(
 );
 
 /** Message documentation (Message documentation)
+ * @author Shirayuki
  */
 $messages['qqq'] = array(
-	'subpagesortkey-desc' => '{{desc}}',
+	'subpagesortkey-desc' => '{{desc|name=Subpage Sortkey|url=http://www.mediawiki.org/wiki/Extension:SubpageSortkey}}',
 );
 
 /** Asturian (asturianu)
