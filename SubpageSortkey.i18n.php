@@ -182,6 +182,13 @@ $messages['ru'] = array(
 	'subpagesortkey-desc' => 'Изменяет ключ сортировки страницы по умолчанию, основывая его на имени подстраницы вместо полного имени страницы',
 );
 
+/** Swedish (svenska)
+ * @author Lokal Profil
+ */
+$messages['sv'] = array(
+	'subpagesortkey-desc' => 'Ändra standardsorteringsnyckeln för en sida så att denna är baserad på undersidan istället för det fulla sidnamnet.',
+);
+
 /** Tagalog (Tagalog)
  * @author AnakngAraw
  */
