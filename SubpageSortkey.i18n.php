@@ -127,9 +127,10 @@ $messages['ksh'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
-	'subpagesortkey-desc' => 'De Standard-Sortéierschlëssel vun enger Säit änneren esou datt en ob den Numm vun der Ënnersäit baséiert aplaz ob de ganzen Numm',
+	'subpagesortkey-desc' => 'De Standard-Sortéierschlëssel vun enger Säit ännere sou datt en ob den Numm vun der Ënnersäit baséiert aplaz ob de ganzen Numm',
 );
 
 /** Macedonian (македонски)
