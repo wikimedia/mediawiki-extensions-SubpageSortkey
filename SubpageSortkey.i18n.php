@@ -34,7 +34,7 @@ $messages['be-tarask'] = array(
 	'subpagesortkey-desc' => 'Зьмяняе ключ сартыроўкі па змоўчваньні старонкі заснаваным на назьве ягонай падстаронкі замест поўнай назвы',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Reaperman
  */
 $messages['cs'] = array(
