@@ -183,6 +183,13 @@ $messages['ru'] = array(
 	'subpagesortkey-desc' => 'Изменяет ключ сортировки страницы по умолчанию, основывая его на имени подстраницы вместо полного имени страницы',
 );
 
+/** Scots (Scots)
+ * @author John Reid
+ */
+$messages['sco'] = array(
+	'subpagesortkey-desc' => 'Chynge the defaut sortkey o ae page tae be based oan its subpage name instead o its ful name',
+);
+
 /** Swedish (svenska)
  * @author Lokal Profil
  */
