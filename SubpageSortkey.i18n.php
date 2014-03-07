@@ -62,6 +62,13 @@ $messages['es'] = array(
 	'subpagesortkey-desc' => 'Cambiar la clave de ordenación por defecto de una página para que esté basada en el nombre de su subpágina en lugar de en su nombre completo',
 );
 
+/** Persian (فارسی)
+ * @author Armin1392
+ */
+$messages['fa'] = array(
+	'subpagesortkey-desc' => 'تغییر نوع کلید پیش‌فرض یک صفحه برای مبنی شدن در نام زیرصفحه به جای نام کامل آن',
+);
+
 /** French (français)
  * @author Gomoko
  */
