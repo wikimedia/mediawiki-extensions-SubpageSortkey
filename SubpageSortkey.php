@@ -30,7 +30,7 @@ $wgExtensionCredits['other'][] = array(
 	'author' => array( '[http://mediawiki.org/wiki/User:Bawolff Brian Wolff]' ),
 	'descriptionmsg' => 'subpagesortkey-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:SubpageSortkey',
-	'version' => 0.1,
+	'version' => '0.2.0',
 );
 
 // Syntax is as follows:
@@ -54,7 +54,8 @@ $wgSubpageSortkeyByNamespace = array();
 $wgSubpageSortkeyIfNoSubpageUseFullName = true;
 
 $wgHooks['GetDefaultSortkey'][] = 'SubpageSortkey::onGetDefaultSortkey';
-$dir = dirname( __FILE__ ) . '/';
-$wgAutoloadClasses['SubpageSortkey'] = $dir . 'SubpageSortkey_body.php';
-$wgExtensionMessagesFiles['SubpageSortkey'] = $dir . 'SubpageSortkey.i18n.php';
+
+$wgAutoloadClasses['SubpageSortkey'] = __DIR__ . '/SubpageSortkey_body.php';
+$wgMessagesDirs['SubpageSortkey'] = __DIR__ . '/i18n';
+$wgExtensionMessagesFiles['SubpageSortkey'] = __DIR__ . '/SubpageSortkey.i18n.php';
 
