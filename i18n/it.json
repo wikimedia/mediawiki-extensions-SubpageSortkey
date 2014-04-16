@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Beta16"
-        ]
-    },
-    "subpagesortkey-desc": "Cambia la chiave di ordinamento predefinita di una pagina in base al nome della sotto-pagina anziché al suo nome completo"
+	"@metadata": {
+		"authors": [
+			"Beta16"
+		]
+	},
+	"subpagesortkey-desc": "Cambia la chiave di ordinamento predefinita di una pagina in base al nome della sotto-pagina anziché al suo nome completo"
 }

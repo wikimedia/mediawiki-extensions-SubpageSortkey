@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Armando-Martin"
-        ]
-    },
-    "subpagesortkey-desc": "Cambiar la clave de ordenación por defecto de una página para que esté basada en el nombre de su subpágina en lugar de en su nombre completo"
+	"@metadata": {
+		"authors": [
+			"Armando-Martin"
+		]
+	},
+	"subpagesortkey-desc": "Cambiar la clave de ordenación por defecto de una página para que esté basada en el nombre de su subpágina en lugar de en su nombre completo"
 }

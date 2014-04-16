@@ -1,8 +1,8 @@
 {
-    "@metadata": {
-        "authors": [
-            "Shirayuki"
-        ]
-    },
-    "subpagesortkey-desc": "{{desc|name=Subpage Sortkey|url=http://www.mediawiki.org/wiki/Extension:SubpageSortkey}}"
+	"@metadata": {
+		"authors": [
+			"Shirayuki"
+		]
+	},
+	"subpagesortkey-desc": "{{desc|name=Subpage Sortkey|url=http://www.mediawiki.org/wiki/Extension:SubpageSortkey}}"
 }
