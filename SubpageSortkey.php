@@ -31,6 +31,7 @@ $wgExtensionCredits['other'][] = array(
 	'descriptionmsg' => 'subpagesortkey-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:SubpageSortkey',
 	'version' => '0.2.0',
+	'license-name' => 'GPL-2.0+',
 );
 
 // Syntax is as follows:
