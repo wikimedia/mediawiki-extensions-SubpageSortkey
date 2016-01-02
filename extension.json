@@ -1,0 +1,33 @@
+{
+	"name": "Subpage Sortkey",
+	"version": "0.2.0",
+	"author": [
+		"Brian Wolff"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:SubpageSortkey",
+	"descriptionmsg": "subpagesortkey-desc",
+	"license-name": "GPL-2.0+",
+	"type": "other",
+	"MessagesDirs": {
+		"SubpageSortkey": [
+			"i18n"
+		]
+	},
+	"AutoloadClasses": {
+		"SubpageSortkey": "SubpageSortkey_body.php"
+	},
+	"Hooks": {
+		"GetDefaultSortkey": [
+			"SubpageSortkey::onGetDefaultSortkey"
+		]
+	},
+	"config": {
+		"SubpageSortkeyDefault": false,
+		"SubpageSortkeyByNamespace": {
+			"_merge_strategy": "array_plus"
+		},
+		"SubpageSortkeyIfNoSubpageUseFullName": true
+	},
+	"manifest_version": 1
+}
+
