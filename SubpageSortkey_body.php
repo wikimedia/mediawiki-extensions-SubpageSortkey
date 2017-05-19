@@ -20,7 +20,7 @@ class SubpageSortkey {
 			$wgSubpageSortkeyByNamespace,
 			$wgSubpageSortkeyIfNoSubpageUseFullName;
 
-		$newSortkey = array();
+		$newSortkey = [];
 
 		$ns = $title->getNamespace();
 		if ( !MWNamespace::hasSubpages( $ns ) ) {
@@ -35,7 +35,7 @@ class SubpageSortkey {
 		}
 
 		$elms = explode( ',', $descript );
-		foreach( $elms as $item ) {
+		foreach ( $elms as $item ) {
 			$ranges = explode( '..', $item, 2 );
 			$start = intval( $ranges[0] );
 			if ( count( $ranges ) === 1 ) {
@@ -70,7 +70,7 @@ class SubpageSortkey {
 		$numb = count( $subpages );
 
 		if ( $index > $numb ) {
-			return array();
+			return [];
 		}
 
 		if ( $count === false || $index + $count > $numb + 1 ) {
