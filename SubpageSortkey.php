@@ -20,4 +20,3 @@ if ( function_exists( 'wfLoadExtension' ) ) {
 } else {
 	die( 'This version of the SubpageSortkey extension requires MediaWiki 1.25+' );
 }
-
