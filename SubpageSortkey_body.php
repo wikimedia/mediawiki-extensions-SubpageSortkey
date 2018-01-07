@@ -14,6 +14,9 @@ class SubpageSortkey {
 	 *
 	 * Another example: Configuration -3..-1 turns 1/2/3/4/5 -> 3/4
 	 * and -3.. turns 1/2/3/4/5 -> 3/4/5
+	 * @param Title $title
+	 * @param string &$unprefixed
+	 * @return true
 	 */
 	public static function onGetDefaultSortkey( $title, &$unprefixed ) {
 		global $wgSubpageSortkeyDefault,
@@ -60,10 +63,10 @@ class SubpageSortkey {
 	}
 
 	/**
-	 * @param $index Int starting index of subpage.
-	 * @param $count Int how many elements, or false to denote all
-	 * @param $title Title
-	 * @return array of subpages (strings)
+	 * @param int $index starting index of subpage.
+	 * @param int $count how many elements, or false to denote all
+	 * @param Title $title
+	 * @return string[] array of subpages
 	 */
 	private static function getSubpage( $index, $count, $title ) {
 		$subpages = explode( '/', $title->getText() );
