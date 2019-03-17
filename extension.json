@@ -14,7 +14,7 @@
 		]
 	},
 	"AutoloadClasses": {
-		"SubpageSortkey": "SubpageSortkey_body.php"
+		"SubpageSortkey": "includes/SubpageSortkey.php"
 	},
 	"Hooks": {
 		"GetDefaultSortkey": [
