@@ -5,7 +5,7 @@
  * @author Brian Wolff
  * @copyright Copyright © 2011 Brian Wolff
  * @license GPL-2.0-or-later
-*/
+ */
 if ( function_exists( 'wfLoadExtension' ) ) {
 	wfLoadExtension( 'SubpageSortkey' );
 	// Keep i18n globals so mergeMessageFileList.php doesn't break
