@@ -22,12 +22,21 @@
 		]
 	},
 	"config": {
-		"SubpageSortkeyDefault": false,
-		"SubpageSortkeyByNamespace": {
-			"_merge_strategy": "array_plus"
+		"SubpageSortkeyDefault": {
+			"value": false
 		},
-		"SubpageSortkeyIfNoSubpageUseFullName": true
+		"SubpageSortkeyByNamespace": {
+			"value": {
+				"_merge_strategy": "array_plus"
+			},
+			"merge_strategy": "array_plus"
+		},
+		"SubpageSortkeyIfNoSubpageUseFullName": {
+			"value": true
+		}
 	},
-	"manifest_version": 1
+	"manifest_version": 2,
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	}
 }
-
