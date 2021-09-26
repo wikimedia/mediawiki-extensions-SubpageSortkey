@@ -1,4 +1,7 @@
 <?php
+
+use MediaWiki\MediaWikiServices;
+
 class SubpageSortkey {
 	/**
 	 * The GetDefaultSortkey hook.
@@ -26,7 +29,7 @@ class SubpageSortkey {
 		$newSortkey = [];
 
 		$ns = $title->getNamespace();
-		if ( !MWNamespace::hasSubpages( $ns ) ) {
+		if ( !MediaWikiServices::getInstance()->getNamespaceInfo()->hasSubpages( $ns ) ) {
 			// Do nothing
 			return true;
 		}
