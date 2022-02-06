@@ -1,6 +1,9 @@
 <?php
 
+namespace MediaWiki\Extension\SubpageSortkey;
+
 use MediaWiki\MediaWikiServices;
+use Title;
 
 class SubpageSortkey {
 	/**

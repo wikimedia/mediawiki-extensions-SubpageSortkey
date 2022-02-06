@@ -16,12 +16,12 @@
 			"i18n"
 		]
 	},
-	"AutoloadClasses": {
-		"SubpageSortkey": "includes/SubpageSortkey.php"
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\SubpageSortkey\\": "includes/"
 	},
 	"Hooks": {
 		"GetDefaultSortkey": [
-			"SubpageSortkey::onGetDefaultSortkey"
+			"MediaWiki\\Extension\\SubpageSortkey\\SubpageSortkey::onGetDefaultSortkey"
 		]
 	},
 	"config": {
