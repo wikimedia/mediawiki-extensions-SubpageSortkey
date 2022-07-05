@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gomoko"
+			"Gomoko",
+			"Verdy p"
 		]
 	},
-	"subpagesortkey-desc": "Modifie la clé de tri par défaut d'une page pour qu'elle soit basée sur le nom de sa sous-page plutôt que sur son nom complet"
+	"subpagesortkey-desc": "Modifie la clé de tri par défaut d’une page pour qu’elle soit basée sur le nom de sa sous-page plutôt que sur son nom complet."
 }
