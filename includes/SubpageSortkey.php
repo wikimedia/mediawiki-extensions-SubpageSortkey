@@ -3,7 +3,7 @@
 namespace MediaWiki\Extension\SubpageSortkey;
 
 use MediaWiki\MediaWikiServices;
-use Title;
+use MediaWiki\Title\Title;
 
 class SubpageSortkey {
 	/**
