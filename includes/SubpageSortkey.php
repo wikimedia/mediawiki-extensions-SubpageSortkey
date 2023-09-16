@@ -2,10 +2,11 @@
 
 namespace MediaWiki\Extension\SubpageSortkey;
 
+use MediaWiki\Hook\GetDefaultSortkeyHook;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Title\Title;
 
-class SubpageSortkey {
+class SubpageSortkey implements GetDefaultSortkeyHook {
 	/**
 	 * The GetDefaultSortkey hook.
 	 * Basically prefixes the normal sortkey with some of the subpage
@@ -22,9 +23,8 @@ class SubpageSortkey {
 	 * and -3.. turns 1/2/3/4/5 -> 3/4/5
 	 * @param Title $title
 	 * @param string &$unprefixed
-	 * @return true
 	 */
-	public static function onGetDefaultSortkey( $title, &$unprefixed ) {
+	public function onGetDefaultSortkey( $title, &$unprefixed ) {
 		global $wgSubpageSortkeyDefault,
 			$wgSubpageSortkeyByNamespace,
 			$wgSubpageSortkeyIfNoSubpageUseFullName;
@@ -34,7 +34,7 @@ class SubpageSortkey {
 		$ns = $title->getNamespace();
 		if ( !MediaWikiServices::getInstance()->getNamespaceInfo()->hasSubpages( $ns ) ) {
 			// Do nothing
-			return true;
+			return;
 		}
 
 		if ( isset( $wgSubpageSortkeyByNamespace[$ns] ) ) {
@@ -65,7 +65,6 @@ class SubpageSortkey {
 		) {
 			$unprefixed = $newPrefix . "\n" . $unprefixed;
 		}
-		return true;
 	}
 
 	/**

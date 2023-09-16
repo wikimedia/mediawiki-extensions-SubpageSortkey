@@ -20,9 +20,12 @@
 		"MediaWiki\\Extension\\SubpageSortkey\\": "includes/"
 	},
 	"Hooks": {
-		"GetDefaultSortkey": [
-			"MediaWiki\\Extension\\SubpageSortkey\\SubpageSortkey::onGetDefaultSortkey"
-		]
+		"GetDefaultSortkey": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\SubpageSortkey\\SubpageSortkey"
+		}
 	},
 	"config": {
 		"SubpageSortkeyDefault": {
