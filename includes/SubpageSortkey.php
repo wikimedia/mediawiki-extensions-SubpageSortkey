@@ -2,11 +2,18 @@
 
 namespace MediaWiki\Extension\SubpageSortkey;
 
+use MediaWiki\Config\Config;
 use MediaWiki\Hook\GetDefaultSortkeyHook;
-use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\NamespaceInfo;
 use MediaWiki\Title\Title;
 
 class SubpageSortkey implements GetDefaultSortkeyHook {
+	public function __construct(
+		private readonly Config $mainConfig,
+		private readonly NamespaceInfo $namespaceInfo,
+	) {
+	}
+
 	/**
 	 * The GetDefaultSortkey hook.
 	 * Basically prefixes the normal sortkey with some of the subpage
@@ -25,24 +32,16 @@ class SubpageSortkey implements GetDefaultSortkeyHook {
 	 * @param string &$unprefixed
 	 */
 	public function onGetDefaultSortkey( $title, &$unprefixed ) {
-		global $wgSubpageSortkeyDefault,
-			$wgSubpageSortkeyByNamespace,
-			$wgSubpageSortkeyIfNoSubpageUseFullName;
-
-		$newSortkey = [];
-
 		$ns = $title->getNamespace();
-		if ( !MediaWikiServices::getInstance()->getNamespaceInfo()->hasSubpages( $ns ) ) {
+		if ( !$this->namespaceInfo->hasSubpages( $ns ) ) {
 			// Do nothing
 			return;
 		}
 
-		if ( isset( $wgSubpageSortkeyByNamespace[$ns] ) ) {
-			$descript = $wgSubpageSortkeyByNamespace[$ns];
-		} else {
-			$descript = $wgSubpageSortkeyDefault;
-		}
+		$descript = $this->mainConfig->get( 'SubpageSortkeyByNamespace' )[$ns]
+			?? $this->mainConfig->get( 'SubpageSortkeyDefault' );
 
+		$newSortkey = [];
 		$elms = explode( ',', $descript );
 		foreach ( $elms as $item ) {
 			$ranges = explode( '..', $item, 2 );
@@ -61,7 +60,7 @@ class SubpageSortkey implements GetDefaultSortkeyHook {
 
 		// Don't prefix an extra \n if the prefix is empty.
 		if ( $newPrefix !== ''
-			|| !$wgSubpageSortkeyIfNoSubpageUseFullName
+			|| !$this->mainConfig->get( 'SubpageSortkeyIfNoSubpageUseFullName' )
 		) {
 			$unprefixed = $newPrefix . "\n" . $unprefixed;
 		}

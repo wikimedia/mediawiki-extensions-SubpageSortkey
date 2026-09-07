@@ -24,7 +24,11 @@
 	},
 	"HookHandlers": {
 		"main": {
-			"class": "MediaWiki\\Extension\\SubpageSortkey\\SubpageSortkey"
+			"class": "MediaWiki\\Extension\\SubpageSortkey\\SubpageSortkey",
+			"services": [
+				"MainConfig",
+				"NamespaceInfo"
+			]
 		}
 	},
 	"config": {
